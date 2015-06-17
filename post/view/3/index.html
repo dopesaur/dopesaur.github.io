@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<base href="/">
+<title>
+    Post Fuzzy CMS - Default site
+</title>
+<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+        <header class="wrapper" id="header"><h1>
+        <a href="">
+            Default
+        </a>
+    </h1>
+    
+    <p>
+        <a href="posts">Latest posts</a>
+         
+            &ndash; 
+            <a href="pages/about-us">
+                About us 
+            </a>
+         
+            &ndash; 
+            <a href="pages/contact-us">
+                Contact us 
+            </a>
+         
+        
+         
+    </p>
+</header><article class="wrapper" id="wrapper"><section class="post"><h1 class="post-title">
+        Fuzzy CMS 
+    </h1>
+
+    <p class="date">
+        05-28-2015 
+    </p>
+                
+    <p>
+        This CMS is not actually one file. Its core and themes can be compressed down to one file, but it never would be one file because of assets and content (How would you put SQLite database in one file with CMS?! I'm crazy, but not that way crazy). 
+    </p>
+
+    <p>One file CMS written in PHP (not really, see the disclaimer).</p>
+<h2>"So wut the point?"</h2>
+<p>The point is... wait for it... play well with FTP and git, and be efficient, pretty much that.</p>
+<p>I know there's deployment systems (based on git), and other cool stuff for cool guys, and bla bla bla, <strong>but</strong>
+one tiny CMS in a file (in few files, actually, see the disclaimer) with ability to version <strong>everything</strong> is quite cool.</p>
+<p>What do you think of that?</p>
+<h2>Benefits of using this CMS</h2>
+<p><a href="http://www.latofonts.com/lato-free-fonts/">There</a> are some benefits of using this CMS:</p>
+<ol>
+<li><del>No one will try to modify or steal CMS from you</del></li>
+<li><del>Sometimes it's tiny, simple, and fast</del></li>
+</ol>
+<p>Not really :smile:</p>
+<p>There are some <strong>real</strong> benefits of using this CMS: </p>
+<ol>
+<li>It's fast, 'cuz there's no real database</li>
+<li>It's simple, no complicated settings or so, just grab copy and set <code>777</code> permission to content folder, and that's it!</li>
+<li>It's tiny, few files and that's it!</li>
+<li>Less chances of somebody being dig into your code (haha compressed file, phhh)</li>
+</ol>
+<p>That's everything I can think of.</p>
+<h2>"I wanna build it myself!"</h2>
+<p>Go into console to the repository directory and run: </p>
+<pre><code># Make it
+chmod a+x bin/build.sh 
+
+# Build it
+./bin/build.sh</code></pre>
+<p>To build everything (core and two themes).</p>
+<h2>"No, thanks, I'll take two compressed ones."</h2>
+<p>There are also already built files which are located in <code>build</code> directory.</p>
+<ul>
+<li>
+<code>index.php</code> is core file</li>
+<li>
+<code>themes/default.php</code> is default template</li>
+<li>
+<code>themes/admin.php</code> is admin template</li>
+</ul>
+<p>To install this CMS, you need to copy those files (<code>index.php</code> and folder <code>themes</code>) to your website folder. </p>
+<p>Then you need to copy <code>content</code> and <code>assets</code> directories to your new website.</p>
+<h1>Disclaimer</h1>
+<p>This CMS is not actually one file. Its core and themes can be compressed down to one file, but it never would be one file because of <code>assets</code> and <code>content</code> (How would you put SQLite database in <em>one file with CMS</em>?! I'm crazy, but not that way crazy).</p>
+<h1>License</h1>
+<p>License is, of course, a good ol' MIT license (the one that allows to do everything, but I'm not legible for any damage, and you're responsible for everything):</p>
+<pre><code>The MIT License (MIT)
+
+Copyright (c) 2015+ dopesaur &lt;dopesaur5@gmail.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.</code></pre> 
+</section></article><footer class="wrapper" id="footer"><p>
+        An awesome blog &copy; 
+        2015+
+    </p>
+</footer>
+</body>
+</html>
